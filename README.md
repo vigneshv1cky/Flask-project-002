@@ -23,3 +23,12 @@ This is a simple Flask-based REST API for managing stores and their items. It al
    ```bash
    git clone https://github.com/your-username/flask-store-api.git
    cd flask-store-api
+
+
+Install dependencies:
+pip install Flask
+
+Run the application:
+python app.py
+
+The API will be available at http://127.0.0.1:5000.
