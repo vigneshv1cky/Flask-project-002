@@ -1,0 +1,41 @@
+# Python cache files
+*.pyc
+__pycache__/
+
+# Flask instance folder (local configuration and sensitive data)
+instance/
+
+# Environment variables
+.env
+.env.local
+
+# Database files
+*.db
+*.sqlite
+
+# Conda environment files
+env/
+venv/
+.conda/
+conda-env/
+
+# macOS specific files
+.DS_Store
+
+# IDE specific files
+.vscode/
+.idea/
+
+# Logs and development files
+logs/
+*.log
+
+# Testing and coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Distribution and build files
+dist/
+build/
+*.egg-info/
